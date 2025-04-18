@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"go_vue_blog/model"
+)
 
 func main() {
-	fmt.Println("Hello World")
-	
+	//数据库初始化
+	model.InitDB()
+	//routes.InitRouter()
 }

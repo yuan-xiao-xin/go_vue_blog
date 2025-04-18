@@ -1,4 +1,4 @@
-module example.com/m/v2
+module go_vue_blog
 
 go 1.24.2
 
